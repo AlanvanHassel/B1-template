@@ -105,6 +105,9 @@ article{
   padding-left: 10px;
   margin: 1em 1em 1em 0;
 }
+article.cart{
+  border-left: none;
+}
 article:last-of-type{
   margin-right: 0;
 }
@@ -144,6 +147,12 @@ article.emphasize h2{
   margin: 0;
   border-left: none;
   text-align: center;
+}
+article.cart h2{
+  margin: 0.5em 0;
+  padding: 0.2em .8em;
+  border-left: 5px solid #27AE60;
+  text-align: left;
 }
 
 .product{
